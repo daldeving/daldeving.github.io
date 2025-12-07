@@ -1,0 +1,39 @@
+.bar{
+    max-width: 90%;
+    height: 100px;
+    min-height: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+#creator{
+    width: fit-content;
+}
+
+#creator>a{
+    width: fit-content;
+    display: block;
+    color:  #807f7f;
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+#creator a:hover{
+    text-decoration: underline;
+    color: #403e3e;
+}
+
+#title{
+    width: fit-content;
+    color: rgb(101, 95, 95);
+    font-weight: 300;
+    font-size: 28px;
+    overflow-wrap: anywhere;
+
+}

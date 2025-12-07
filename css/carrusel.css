@@ -1,0 +1,51 @@
+.carrusel{
+    max-width: 90%;
+    min-height: fit-content;
+    height: fit-content;
+    background-color: #fafafa;
+    border: solid 2px #dcdcdc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.view{
+    position: relative;
+    max-width: 700px;
+    max-height: 450px;  
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+    border: solid 1px #dcdcdc;
+}
+
+#view-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.controllers{
+    position: absolute;
+    max-width: 32px;
+    width: 10%;
+    min-width: 1%;
+    background-color:transparent;
+}
+
+#left{
+    left: 0;
+    top: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#right{
+    right: 0;
+    top: 50%;
+    border: none;
+    cursor: pointer;
+}
